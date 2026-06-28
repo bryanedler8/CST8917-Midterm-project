@@ -9,6 +9,7 @@
 ## Architecture Diagram
 
 ```mermaid
+
 graph TD
     A[PDF Upload to Blob Storage] --> B[Blob Trigger]
     A --> C[HTTP Trigger - Manual]
@@ -170,9 +171,9 @@ curl https://$FUNCTION_APP.azurewebsites.net/api/get_results/test.pdf | python -
 
 ## Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/LK69Vm1I_M0)
 
-**Video Link:** [https://youtu.be/YOUR_VIDEO_ID](https://youtu.be/YOUR_VIDEO_ID)
+**Video Link:** [https://youtu.be/YOUR_VIDEO_ID](https://youtu.be/LK69Vm1I_M0)
 
 **Video Contents:**
 1. PDF upload to Azurite with blob trigger firing
