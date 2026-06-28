@@ -1,0 +1,8 @@
+azure-functions
+azure-functions-durable
+azure-storage-blob
+azure-data-tables
+azure-identity
+PyPDF2
+pdfplumber
+requests

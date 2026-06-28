@@ -1,0 +1,5 @@
+### Test Results Retrieval
+GET http://localhost:7071/api/get_results/sample.pdf
+
+### Manual Trigger for Testing
+POST http://localhost:7071/api/start_pdf_analysis/pdfs/sample.pdf
